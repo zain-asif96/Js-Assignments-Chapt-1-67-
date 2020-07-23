@@ -1,0 +1,97 @@
+.modal-img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-images {
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.modal-content {
+    border: transparent !important;
+    background-color: transparent !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupimg {
+    max-width: 700px;
+}
+
+.text-center p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoom-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoom-btn button {
+    border: transparent;
+    border-radius: 23px;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: teal;
+    margin-bottom: 100px;
+}
+
+.zoom-btn button:nth-child(2) {
+    margin-left: 20px;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.mobile-img {
+    border: transparent;
+    box-shadow: inset 1px 1px 6px 0px #80808040;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mobile-img img {
+    width: 100%;
+    max-width: 160px;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.click-value {
+    display: inline-block;
+    margin: 0 5px;
+    border: 2px solid grey;
+    width: 75px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+#more {
+    display: none;
+}
